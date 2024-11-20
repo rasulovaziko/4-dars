@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+}
+
+.grid-item {
+  border-radius: 10px;
+}
+
+.item-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 6;
+  width: 256px;
+  height: 415px;
+  background-color: #F9EEE2;
+}
+
+.item-2 {
+  grid-column: 1 / 4;
+  grid-row: 6 / 13;
+  height: 434px;
+  background-color: #FFCC6A;
+}
+
+.item-3 {
+  grid-column: 4 /10;
+  grid-row: 1 / 5;
+  background-color: #7551DC;
+}
+
+.item-4 {
+  grid-column: 10 / 13;
+  grid-row: 1 / 9;
+  background-color: #DBD1FC;
+}
+
+.item-5 {
+  grid-column: 4 / 7;
+  grid-row: 5 / 9;
+  background-color: #ffffff;
+}
+
+.item-6 {
+  grid-column: 7 / 10;
+  grid-row: 5 / 9;
+  background-color: #FFCC6A;
+}
+
+.item-7 {
+  grid-column: 4 / 7;
+  grid-row: 9 / 13;
+  background-color: #ffffff;
+}
+
+.item-8 {
+  grid-column: 7 / 13;
+  grid-row: 9 / 13;
+  background-color: #7551DC;
+}
